@@ -34,7 +34,7 @@ public class Main3 {
 
         Circle circle = new Circle(5);
         circle.setRadius(7);
-        System.out.println("Площадь круга: " + circle.calculateArea());
+        System.out.println("Площадь круга: " + circle.calculateArea() + ", длина окружности: " + circle.Circumference());
 
         Teacher teacher = new Teacher("Олег", "математика");
         teacher.setSubject("История");
